@@ -1,0 +1,955 @@
+/*  Index of the CSS
+
+    0. Body for all pages
+    1. Header for all pages  (but  01_welcome_page.html  and  06_acknowloedgements_page.html)
+    2. Footer for all pages  (but  01_welcome_page.html  and  06_acknowloedgements_page.html)
+    3. Content for CLIQUER_POUR_OUVRIR_LE_SITE.html
+    4. Content for 01_welcome_page.html
+    5. Content for 02_introduce_page.html
+    6. Content for 03_hard_skills_page.html
+    7. Content for 04_soft_skills_page.html
+    8. Content for 05_why_this_training_page.html
+    9. Content for 06_acknowloedgements_page.html
+    10. Content for 07_last_page.html
+    11. Animation for all website pages (but LIQUER_POUR_OUVRIR_LE_SITE.html  and  07_last_page.html)
+
+*/
+
+
+/*  0. Body for all pages  */
+
+body {
+    margin: 0;
+}
+
+/*  END  0. Body for all pages  END  */
+
+
+
+/*  1. Header for all pages  (but  01_welcome_page.html  and  06_acknowloedgements_page.html)  */
+
+.previous_page_button {
+    padding: 0;
+    background-color: cornflowerblue;
+}
+
+.back_to_the_previous_page {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    width:fit-content;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    transition-delay: 0;
+    transition-duration: 1s;
+    border-radius: 10px;
+}
+
+@media all and (min-width: 901px)
+{
+    .previous_page_button {
+        display: flex;
+        justify-items: left;
+    }
+
+    .back_to_the_previous_page:hover {
+        color: black;
+        background-color: white;
+        transition-delay: 0;
+        transition-duration: 1s;
+        border-radius: 10px;
+    }
+
+    .back_to_the_previous_page:active {
+        color: white;
+        background-color: black;
+        transition-delay: 0;
+        transition-duration: 0s;
+    }
+}
+
+@media all and (max-width: 900px)
+{
+    .previous_page_button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .back_to_the_previous_page {
+        color: black;
+        background-color: white;
+        transition-duration: 1s;
+        border-radius: 10px;
+    }
+}
+
+.page_title {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    margin-top: 170px;
+    margin-bottom: 250px;
+}
+
+@media all and (max-width: 900px)
+{
+    .page_title {
+        font-size: 30px;
+    }
+}
+
+/*  END  1. Header for all pages  (but  01_welcome_page.html  and  06_acknowloedgements_page.html)  END  */
+
+
+
+/*  2. Footer for all pages  (but  01_welcome_page.html  and  06_acknowloedgements_page.html)  */
+
+.incitement_text {
+    margin-top: 400px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.text_button {
+    align-self: center;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    word-wrap: normal;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    transition: 1.5s;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+@media all and (min-width: 901px)
+{
+    .text_button:hover {
+        box-shadow: 0px 0px 15px blue;
+        transition: 1s;
+    }
+
+    .text_button:active {
+        box-shadow : 0px 0px 0px;
+        transition-duration: 0s;
+    }
+}
+
+.bottom_page {
+    background-color: cornflowerblue;
+    height: 50px;
+}
+
+/*  END  2. Footer for all pages  (but  01_welcome_page.html  and  06_acknowloedgements_page.html)  END  */
+
+
+
+/*  3. Content for CLIQUER_POUR_OUVRIR_LE_SITE.html  */
+
+.preamble_website_text {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    margin-bottom: 100px;
+    margin-top: 180px;
+    text-align: center;
+}
+
+.preamble_website_text p {
+    margin-bottom: 100px;
+}
+
+.preamble_website_text_button {
+    align-self: center;
+    padding: 7px;
+    border: 1px solid black;
+    cursor: pointer;
+    word-wrap: normal;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+    transition-duration: 0;
+    transition-delay: 0;
+}
+
+@media all and (min-width: 901px)
+{
+    .preamble_website_text_button:hover {
+        border-color: grey;
+        transition-duration: 0;
+        transition-delay: 0;
+    }
+
+    .preamble_website_text_button:active {
+        border-color: lightgrey;
+        transition-duration: 0;
+        transition-delay: 0;
+    }
+}
+
+/*  END  3. Content for CLIQUER_POUR_OUVRIR_LE_SITE.html  END  */
+
+
+
+/*  4. Content for 01_welcome_page.html  */
+
+.around_welcome_text {
+    margin-top: 140px;
+    margin-bottom: 0;
+}
+
+.welcome_text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 130px;
+    text-align: center;
+}
+
+/*  END  4. Content for 01_welcome_page.html  END  */
+
+
+
+/*  5. Content for 02_introduce_page.html  */
+
+.let_me_introduce_my_self_div {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+@media all and (max-width: 900px)
+{
+    .let_me_introduce_my_self_div {
+        font-size: 25px;
+    }
+}
+
+.around_who_am_i {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.who_am_i {
+    text-align: left;
+    font-size: 25px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.who_am_i_id, .who_am_i_content {
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.who_am_i_content {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+}
+
+.where_i_live {
+    padding: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 15px;
+}
+
+.what_is_my_name, .my_name {
+    padding: 0;
+    margin: 0;
+}
+
+.city {
+    margin-top: 15px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+@media all and (min-width: 901px)
+{
+    .who_am_i {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 901px)
+{
+    .who_am_i_id, .who_am_i_content {
+        border: 0px solid black;
+        padding: 0;
+        
+    }
+
+    .who_am_i {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .who_am_i_content {
+        margin-left: 0;
+        margin-top: 35px;
+    }
+
+}
+
+.my_life_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 160px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.my_life_section p {
+    max-width: 900px;
+
+}
+
+.sentence_introducing_my_life {
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+.my_life {
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+/*  END  5. Content for 02_introduce_page.html  END  */
+
+
+
+/*  6. Content for 03_hard_skills_page.html  */
+
+.stacks_in_progress {
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+@media all and (min-width: 901px)
+{
+    .stacks {
+        display: flex;    
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+}
+
+.each_stack {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;  
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+@media all and (min-width: 901px)
+{
+    .stack_s_pictures {
+        padding: 15px;
+        border-radius: 30px;
+    }
+
+    .most_advanced_stacks .stacks .each_stack {
+        padding-bottom: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        border-radius: 30px;
+        box-shadow: 0 0 0 black;
+        transition-duration: 5s;
+        transition-delay: 0;
+    }
+
+    .most_advanced_stacks:hover .stacks .each_stack {
+        box-shadow: 0 0 250px black;
+        transition-duration: 3s;
+        transition-delay: 0;
+    }
+
+    .most_advanced_stacks .stacks .each_stack .html5 {
+        box-shadow: 0 0 0 red;
+        transition-duration: 3s;
+        transition-delay: 0;
+    }
+
+    .most_advanced_stacks:hover .stacks .each_stack .html5 {
+        box-shadow: 0 0 250px red;
+        transition-duration: 3s;
+        transition-delay: 1s;
+    }
+
+    .most_advanced_stacks .stacks .each_stack .css3 {
+        box-shadow: 0 0 0 blue;
+        transition-duration: 3s;
+        transition-delay: 0;
+    }
+
+    .most_advanced_stacks:hover .stacks .each_stack .css3 {
+        box-shadow: 0 0 250px blue;
+        transition-duration: 3s;
+        transition-delay: 1s;
+    }
+
+    .advancement_progress_should_be_better .stacks .each_stack .stack_s_pictures {
+        box-shadow: 0 0 0 black;
+        transition-duration: 3s;
+        transition-delay: 0;
+    }
+
+    .advancement_progress_should_be_better:hover .stacks .each_stack .stack_s_pictures {
+        box-shadow: 0 0 90px black;
+        transition-duration: 1.5s;
+        transition-delay: 0;
+    }
+
+    .first_lesson_done .stacks .each_stack .stack_s_pictures {
+        box-shadow: 0 0 0 black;
+        transition-duration: 0.5s;
+        transition-delay: 0;
+    }
+
+    .first_lesson_done:hover .stacks .each_stack .stack_s_pictures {
+        box-shadow: 0 0 30px black;
+        transition-duration: 1s;
+        transition-delay: 0;
+    }
+
+}
+
+@media all and (max-width: 900px)
+{
+    .each_stack {
+        margin-bottom: 100px;
+    }
+}
+
+.stack_s_pictures {
+    display: flex;
+    justify-content: center;
+    height: 130px;
+}
+
+@media all and (min-width: 901px)
+{
+    .stack_s_pictures {
+        height: 130px;
+    }
+}
+
+@media all and (max-width: 900px)
+{
+    .stack_s_pictures {
+        height: 40px
+    }
+}
+
+.stack_s_pictures img {
+    height: inherit;
+}
+
+.around_stack_s_name {
+    vertical-align: middle;
+}
+
+.stack_s_name {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/*  END  6. Content for 03_hard_skills_page.html  END  */
+
+
+
+/*  7. Content for 04_soft_skills_page.html  */
+
+.soft_skills {
+    text-align: center;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+@media all and (min-width: 901px)
+{
+    .each_soft_skills_area_with_pictures {
+        display: flex;
+        justify-content:space-evenly;
+        height: fit-content;
+        align-items: center;
+        margin-bottom: 130px;
+    }
+
+    .soft_skills {
+        font-size: 30px;
+        width: 250px;
+        margin: 0;
+    }
+
+    .soft_skills_pictures {
+        inline-size:30%;
+    }
+}
+
+@media all and (max-width: 900px)
+{
+    .soft_skills_pictures {
+        display: none;
+    }
+
+    .soft_skills {
+        font-size: 20px;
+        margin-bottom: 150px;
+    }
+}
+
+
+
+/*  END  7. Content for 04_soft_skills_page.html  END  */
+
+
+
+/*  8. Content for 05_why_this_training_page.html  */
+
+.text_explaining_what_this_training_programm p {
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media all and (min-width: 901px)
+{
+    .why_this_training_illustation_pictures_area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+
+    .why_this_training_illustation_pictures {
+        inline-size: 30%;
+    }
+}
+
+@media all and (max-width: 900px)
+{
+    .why_this_training_illustation_pictures {
+        display: none;
+    }
+}
+
+
+/*  END  8. Content for 05_why_this_training_page.html  END  */
+
+
+
+/*  9. Content for 06_acknowloedgements_page.html  */
+
+.acknowledgements {
+    margin-top: 250px;
+}
+
+.acknowledgements p{
+    margin-top: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 35px;
+}
+
+.incitement_text {
+    margin-top: 400px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.text_button_before_last {
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1.5s;
+    color: black;
+    padding: 40px;
+}
+
+@media all and (min-width: 901px)
+{
+    .text_button_before_last:hover {
+       box-shadow: 0px 0px 30px blue;
+       transition: 1s;
+    }
+
+    .text_button_before_last:active {
+       box-shadow : 0px 0px 0px;
+       transition-duration: 0s;
+    }
+}
+
+@media all and (max-width: 900px)
+{
+    .text_button_before_last {
+        box-shadow: 0px 0px 30px blue;
+        transition: 1s;
+    }
+}
+
+/*  END  9. Content for 06_acknowloedgements_page.html  END  */
+
+
+
+/*  10. Content for 07_last_page.html  */
+
+.last_page_text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 200px;
+}
+
+/*  END  10. Content for 07_last_page.html  END  */
+
+
+
+/*  11. Animation for all website page  */
+
+
+@media all and (min-width: 901px)
+{
+    .anim_header_blue_bar {
+        animation-name: anim_header_blue_bar;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+    }
+    @keyframes anim_header_blue_bar
+    {
+        0%{
+            opacity: 0%;
+        }
+        100%{
+            opacity: 100%;
+    }
+    }
+
+    .anim_back_to_page_button {
+        animation-name: anim_back_to_page_button;
+        animation-duration: 8s;
+        animation-iteration-count: 1;
+    }
+    @keyframes anim_back_to_page_button
+    {
+        0%{
+            opacity: 0;
+        }
+        12.5%{
+            opacity: 0;
+            background-color: white;
+            color: white;
+        }
+        25%{
+            background-color: white;
+            color: white;
+        }
+        37.5%{
+            opacity: 100%;
+            color: black;       
+        }
+        87.5%{
+            background-color: white;
+            color: black;
+        }
+        100%{
+            opacity: 100%;
+            background-color: cornflowerblue;
+            color: white;
+        }
+    }
+
+    .anim_page_title {
+       animation-name: anim_page_title;
+       animation-duration: 4s;
+       animation-iteration-count: 1;
+    }
+    @keyframes anim_page_title
+    {
+        0%{
+            margin-right: 100%;
+            opacity: 0;
+        }
+        50%{
+            opacity: 0;
+        }
+        100%{
+            margin-right: 0%;
+            opacity: 100%;
+        }
+    }
+
+    .anim_footer {
+        animation-name: anim_footer;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+    }
+    @keyframes anim_footer
+    {
+        0%{
+            opacity: 0%;
+        }
+        50%{
+            opacity: 0%;
+        }
+        100%{
+            opacity: 100%;
+        }
+    }
+
+    .anim_content_01{
+       animation-name: anim_content_01;
+       animation-duration: 4s;
+        animation-iteration-count: 1;
+    }
+    @keyframes anim_content_01
+    {
+        0%{
+            opacity: 0%;
+        }
+        70%{
+            opacity: 0%;
+        }
+        90%{
+            opacity: 100%;
+       }
+        100%{
+           opacity: 100%;
+        }
+    }
+
+    .anim_content_02{
+        animation-name: anim_content_02;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+    }
+    @keyframes anim_content_02
+    {
+        0%{
+            opacity: 0%;
+        }
+        75%{
+            opacity: 0%;
+        }
+        95%{
+            opacity: 100%;
+        }
+        100%{
+           opacity: 100%;
+       }
+    }
+
+    .anim_content_03{
+        animation-name: anim_content_03;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+    }
+    @keyframes anim_content_03
+    {
+        0%{
+            opacity: 0%;
+        }
+        80%{
+        opacity: 0%;
+        }
+        100%{
+            opacity: 100%;
+        }
+    }
+
+    .anim_content_04{
+       animation-name: anim_content_04;
+        animation-duration: 8s;
+        animation-iteration-count: 1;
+    }
+    @keyframes anim_content_04
+    {
+        0%{
+            opacity: 0%;
+        }
+        42.5%{
+            opacity: 0%;
+        }
+        52.5%{
+            opacity: 100%;
+        }
+        100%{
+            opacity: 100%;
+        }
+    }
+
+    .anim_content_05{
+        animation-name: anim_content_05;
+        animation-duration: 8s;
+        animation-iteration-count: 1;
+    }
+    @keyframes anim_content_05
+    {
+        0%{
+            opacity: 0%;
+        }
+       45%{
+           opacity: 0%;
+       }
+        55%{
+            opacity: 100%;
+        }
+        100%{
+            opacity: 100%;
+        }
+    }
+
+    .anim_content_06{
+        animation-name: anim_content_06;
+        animation-duration: 8s;
+        animation-iteration-count: 1;
+    }
+    @keyframes anim_content_06
+    {
+        0%{
+            opacity: 0%;
+        }
+        47.5%{
+            opacity: 0%;
+        }
+        57.5%{
+            opacity: 100%;
+        }
+        100%{
+            opacity: 100%;
+        }
+    }
+
+    .anim_content_07{
+        animation-name: anim_content_07;
+        animation-duration: 8s;
+        animation-iteration-count: 1;
+    }
+    @keyframes anim_content_07
+    {
+        0%{
+            opacity: 0%;
+        }
+        50%{
+            opacity: 0%;
+        }
+        60%{
+            opacity: 100%;
+        }
+        100%{
+            opacity: 100%;
+        }
+    }
+
+    .anim_content_08{
+        animation-name: anim_content_08;
+        animation-duration: 8s;
+        animation-iteration-count: 1;
+    }
+    @keyframes anim_content_08
+    {
+        0%{
+            opacity: 0%;
+        }
+        52.5%{
+            opacity: 0%;
+        }
+        62.5%{
+            opacity: 100%;
+        }
+        100%{
+            opacity: 100%;
+        }
+    }
+
+    .anim_content_09{
+        animation-name: anim_content_09;
+        animation-duration: 8s;
+       animation-iteration-count: 1;
+    }
+    @keyframes anim_content_09
+    {
+        0%{
+            opacity: 0%;
+        }
+        55%{
+            opacity: 0%;
+        }
+        65%{
+            opacity: 100%;
+        }
+        100%{
+            opacity: 100%;
+        }
+    }
+
+    .anim_content_10{
+       animation-name: anim_content_10;
+        animation-duration: 8s;
+        animation-iteration-count: 1;
+    }
+    @keyframes anim_content_10
+    {
+        0%{
+            opacity: 0%;
+        }
+        57.5%{
+            opacity: 0%;
+        }
+        67.5%{
+            opacity: 100%;
+        }
+        100%{
+            opacity: 100%;
+        }
+    }
+}
+
+/*  END  11. Animation for all website page  END  */
